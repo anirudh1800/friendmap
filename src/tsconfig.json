@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "outDir": "../build"
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**",
+        ""
+    ],
+    "files": [
+        "index.tsx",
+        "constants.ts",
+        "interfaces.d.ts",
+        "LoginService.ts",
+        "GraphAPIService.ts",
+        "LoginComponent.tsx"
+    ],
+    "exclude": []
+}
